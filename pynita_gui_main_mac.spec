@@ -16,7 +16,6 @@ binaries = osgeo_pyds + [
 
 
 a = Analysis(['pynita_gui_main.py'],
-             pathex=['/Users/kelvin/Desktop/PCK/pynita_GUI'],
              binaries=binaries,
              datas=[],
              hiddenimports=['pkg_resources.py2_warn'],
